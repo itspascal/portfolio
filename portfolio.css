@@ -1,0 +1,100 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    color:white;
+}
+h1 {
+    color:white;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    padding: 45px;
+
+}
+
+h2 {
+    color:white;
+}
+
+body{
+    background-color:#20202D;
+}
+.nav-list {
+   margin: 0;
+   padding: 0px;
+   /*background:rgb(201, 196, 235);*/
+   display: flex;
+   float: right;
+   font-size: 25px;
+   list-style: none;
+}
+
+.nav-list li {
+    padding: 15px;
+}
+
+.nav-item1 {
+    list-style: none;
+    padding: 8px;
+    /*background-color: skyblue;*/
+}
+.nav-item2 {
+    list-style: none;
+    padding: 8px;
+    /*background-color: rgb(201, 196, 235);*/
+}
+.nav-item3 {
+    list-style: none;
+    padding: 8px;
+    /*background-color: skyblue;*/
+}
+
+.home-img {
+    width: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    display: block;
+
+}
+*/
+.nav-list a:hover{
+    /*color: rgb(208, 173, 240);*/
+    color: white;
+    transition: 0.4s;
+}
+
+.proj-card {
+    width: 375px;
+    height: 400px;
+    box-shadow: 1px 1px 8px white;
+}
+
+.proj-d {
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj-d h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+.filler-txt {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.proj-img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    
+}
